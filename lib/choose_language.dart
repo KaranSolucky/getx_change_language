@@ -68,25 +68,6 @@ class _ChooseLanguageState extends State<ChooseLanguage> {
                 },
                 itemCount: locale.length),
           ],
-        )
-
-        // ListView.builder(
-        //     shrinkWrap: true,
-        //     itemCount: 4,
-        //     itemBuilder: (context, index) {
-        //       return Container(
-        //           //I have used container for this example. [not mandatory]
-        //           color: tappedIndex == index ? Colors.red : Colors.grey,
-        //           child: ListTile(
-        //               title: Center(
-        //                 child: Text('${index + 1}'),
-        //               ),
-        //               onTap: () {
-        //                 setState(() {
-        //                   tappedIndex = index;
-        //                 });
-        //               }));
-        //     })
-        );
+        ));
   }
 }
