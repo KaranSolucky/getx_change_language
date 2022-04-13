@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">Glenmark Mobility</string>
+    <string name="password">  Parola:</string>
+    <string name="login_id">ID autentificare:</string>
+    <string name="loginId"> ID autentificare</string>
+    <string name="epassword"> Parola</string>
+    <string name="username">Nume de utilizator</string>
+    <string name="change_password">Schimbați parola</string>
+
+    <string name="request_location_updates">Solicitați actualizări de locație</string>
+    <string name="remove_location_updates">Eliminați actualizările locației</string>
+
+    <string name="notification">Notificare</string>
+    <string name="noRequestReceived">Nu a fost primită nicio cerere</string>
+    <string name="location_updated">Locația a fost actualizată: %1$s</string>
+    <string name="search">Căutare</string>
+    <string name="report">Transaction de date</string>
+    <string name="yes">Da</string>
+    <string name="no">Nu</string>
+    <string name="receivedRequest">Cereri primite</string>
+    <string name="processedRequest">Cereri Prelucrate</string>
+    <string name="nothingSync">Nimic nu se sincronizează cu serverul</string>
+    <string name="dataConnUnavailable">Conexiunea de date nu este disponibilă. Te rog incearca mai tarziu!</string>
+    <string name="appLogout">Cerere de deconectare</string>
+    <string name="dataConnNotAvail">Conexiunea de date nu este disponibilă…!!</string>
+    <string name="plzCheckData">Verificați setările de date..!!</string>
+    <string name="newVersion">Noua versiune disponibilă. Verificați dosarul Android pentru fișierul actualizat pe cardul SD</string>
+    <string name="logoutPermission">Sigur doriți să vă deconectați de la aplicație?</string>
+    <string name="syncPending">Aveți documente care urmează să fie sincronizate.Vă rog să efectuați sincronizarea manuală înainte de deconectare</string>
+    <string name="saveLastSearch">Doriți să verificați din ultima căutare salvată?</string>
+    <string name="acceptedDoc">Documentele acceptate</string>
+    <string name="rejectedDoc">Documentele respinse</string>
+    <string name="queriedDoc">Documente interogate</string>
+    <string name="plzWait">Te rog asteapta....</string>
+    <string name="noNotificationReceived">Nu s-a primit nicio notificare</string>
+    <string name="noDocumentAccepted">Nu a fost acceptat niciun document</string>
+    <string name="noDocumentQueried">Niciun document nu a fost interogat</string>
+    <string name="reply">Răspuns</string>
+    <string name="cancel">Anulare</string>
+    <string name="backSearch">Înapoi de la căutare</string>
+    <string name="ok">OK</string>
+    <string name="back">Înapoi</string>
+    <string name="accept">Accepta</string>
+    <string name="reject">Respinge</string>
+    <string name="query">întrebare</string>
+    <string name="queried">întreba</string>
+    <string name="received">Primit</string>
+    <string name="checkUpdate">Verifică pentru actualizări</string>
+    <string name="logout">Deconectați-vă</string>
+    <string name="sync">Sincronizare</string>
+    <string name="info">Info</string>
+    <string name="help_title">Ajutor</string>
+    <string name="about_title">Despre</string>
+    <string name="exit_title">Ieșire</string>
+    <string name="get_direction_title">A primi direcții</string>
+
+    <string name="help">Sincronizați Ajutor: "\n"Dacă faceți clic pe sincronizare, datele vor fi stocate pe server"\n\n"
+                      	Ajutor pentru deconectare: "\n"Dacă faceți clic pe Logout, vă deconectați de la aplicație "\n\n"
+                      	Verificați pentru actualizări Ajutor: "\n"Această acțiune va descărca o versiune mai nouă a aplicației"\n\n"
+                      	Actualizări automate Ajutor: "\n"Veți primi o notificare pentru actualizările automate, descărcați și instalați aplicația"\n\n"
+                        Ieșiți din Ajutor: "\n"Dacă faceți clic pe Ieșire, apăsați aplicația în fundal fără a vă deconecta, însă serviciile vor continua să ruleze"\n\n"
+                        Pentru suport : "\n""Sună-ne <a href="tel:+918065681204">91-80-65681204</a>"\n"
+         Trimiteți-ne un e-mail :<a href="mailto:qfsupport@orientindia.net">qfsupport@orientindia.net</a>"\n\n"</string>
+
+    <string name="app_version">Versiunea aplicației</string>
+    <string name="about"> "\n" Numele aplicatiei: Glenmark Mobility "\n"
+        Numele Organizatiei : Glenmark Pharmaceuticals Ltd "\n""\n"
+        Numele furnizorului: Orient Technologies Pvt. Ltd. "\n"
+        </string>
+    <string name="manyAcceptedDoc">Prea multe documente acceptate</string>
+    <string name="noAcceptedDoc">Nu este disponibil niciun document acceptat</string>
+    <string name="manyRejectedDoc">Prea multe documente respinse</string>
+    <string name="noRejectedDoc">Nu este disponibil niciun document respins</string>
+    <string name="status">Stare</string>
+    <string name="request">Cereți numele</string>
+    <string name="receivedNo">Numărul de documente primite</string>
+    <string name="pendingNo">Numărul de documente în așteptare</string>
+    <string name="docSentNo">Număr de documente care trebuie trimise</string>
+    <string name="lastEventSent">Ultimul eveniment trimis la</string>
+    <string name="noReport">Nu există un raport disponibil</string>
+    <string name="accepted">Admis</string>
+    <string name="rejected">Respins</string>
+    <string name="autoSyncFreq">Frecvență automată de sincronizare</string>
+    <string name="documentTitle">Titlul Documentului : </string>
+    <string name="document"> Comentariile utilizatorilor : </string>
+    <string name="messageNo">Numarul Documentului</string>
+    <string name="dateFrom">Data Din</string>
+    <string name="DateTime">Selectați Data</string>
+    <string name="dateTo">Data la</string>
+    <string name="saveSearch">Doriți să salvați articolul căutat?</string>
+    <string name="searchSaved">Căutarea a fost salvată cu succes</string>
+    <string name="purchaseOrder">Ordine de achiziție</string>
+    <string name="purchaseRequisition">Solicitări de cumpărare</string>
+    <string name="remarks">Comentarii</string>
+    <string name="submit">A depune</string>
+    <string name="mailtype">Tip de poștă electronică</string>
+    <string name="_169_orient_technologies_pvt_ltd">© Orient Technologies Pvt. Ltd.</string>
+    <string name="user_details_txt">Detalii utilizator</string>
+    <string name="comment">Cometariu</string>
+    <string name="type_a_message">Scrie un mesaj</string>
+    <string name="location_setting_enabled_msg">Setarea locației este activată acum. Continuați mai departe</string>
+    <string name="location_data_required_msg">Datele de localizare sunt necesare pentru finalizarea sarcinii. Activați locația pentru a continua</string>
+    <string name="logging_out_msg">Delogare…</string>
+    <string name="logout_failed_msg">Deconectarea a eșuat. Serverul nu este accesibil</string>
+    <string name="sync_started_msg">Sincronizarea a început</string>
+    <string name="please_enter_date_range">Introduceți intervalul de date</string>
+    <string name="error_in_date">Eroare la data</string>
+    <string name="network_unavailable">Rețea indisponibilă</string>
+    <string name="no_result_available">Niciun rezultat Disponibil</string>
+    <string name="enter_id">Introduceți codul de autentificare</string>
+    <string name="enter_password">Te rog introdu parola</string>
+    <string name="signing_in_msg">Așteptați să vă conectăm</string>
+    <string name="enter_valid_id">Introduceți id valid de autentificare</string>
+    <string name="enter_valid_password">Introduceți o parolă validă</string>
+    <string name="server_error_msg">Serverul nu este accesibil. Contactați echipa tehnică</string>
+    <string name="configure_account_msg">Configurează-ți contul. Te rog asteapta…</string>
+    <string name="setting_missing_msg">Datele de setare a aplicației lipsesc</string>
+    <string name="no_document_assigned_msg">Nu există niciun document atribuit utilizatorului</string>
+    <string name="location_inadequate_msg">Setările de locație sunt necorespunzătoare</string>
+    <string name="signing_msg">Așteptați să vă conectăm</string>
+    <string name="permission_access_msg">Glenmark cere aceste permisiuni pentru a permite accesul aplicației</string>
+    <string name="enable">Permite</string>
+    <string name="update_google_services_title">Actualizați Google Play Services</string>
+    <string name="update_google_services_msg">Această aplicație dorește să vă actualizeze dispozitivul Google Play Services </string>
+    <string name="update">Actualizați</string>
+    <string name="data_transaction_report">Raportul tranzacției cu date</string>
+    <string name="feedback_date">Feedback Data</string>
+    <string name="feedback_status">Starea feedback-ului</string>
+    <string name="feedback_remarks">Note de feedback</string>
+    <string name="user_remarks">Observații utilizator</string>
+    <string name="remarks_date">Observații Data</string>
+    <string name="mobility">Mobility</string>
+    <string name="new_password">Introduceți o nouă parolă</string>
+    <string name="new_passwordR">Reintroduceți noua parolă</string>
+    <string name="change_password_successful">Parola este modificată cu succes</string>
+    <string name="change_password_failed">Parola nu a putut fi modificată. Vă rugăm să încercați din nou</string>
+    <string name="copy">Copie</string>
+    <string name="app_permission_message">Glenmark are nevoie de aceste permisiuni pentru a ne ajuta să oferim o experiență mai bună a aplicației</string>
+
+</resources>

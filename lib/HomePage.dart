@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_change_language/choose_language.dart';
 import 'package:get/get.dart';
 
 class HomePage extends StatelessWidget {
@@ -7,6 +8,7 @@ class HomePage extends StatelessWidget {
     {'name': 'ಕನ್ನಡ', 'locale': Locale('kn', 'IN')},
     {'name': 'हिंदी', 'locale': Locale('hi', 'IN')},
     {'name': 'ગુજરાતી', 'locale': Locale('gj', 'IN')},
+    {'name': 'ROMANIAN', 'locale': Locale('ro', 'IN')},
   ];
 
   updateLanguage(Locale locale) {
@@ -53,6 +55,16 @@ class HomePage extends StatelessWidget {
         appBar: AppBar(
           title: Text('title'.tr),
           centerTitle: true,
+          actions: [
+            IconButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => ChooseLanguage()),
+                  );
+                },
+                icon: Icon(Icons.language))
+          ],
         ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -84,6 +96,12 @@ class HomePage extends StatelessWidget {
                       Get.updateLocale(locale);
                     },
                     child: Text('Gujarati')),
+                ElevatedButton(
+                    onPressed: () {
+                      var locale = Locale('ro', 'IN');
+                      Get.updateLocale(locale);
+                    },
+                    child: Text('ROMANIA')),
                 ElevatedButton(
                     onPressed: () {
                       var locale = Locale('en', 'US');

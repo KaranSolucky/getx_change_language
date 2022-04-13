@@ -18,18 +18,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  // @override
-  // void didChangeDependencies() {
-  //   getLocale().then((locale) {
-  //     setState(() {
-  //       print("Preference Revoked ${locale.languageCode}");
-  //       Get.updateLocale(locale);
-  //       // print("GET LOCALE Revoked ${Get.locale.languageCode}");
-  //     });
-  //   });
-  //   super.didChangeDependencies();
-  // }
-
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(

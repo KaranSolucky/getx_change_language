@@ -30,6 +30,13 @@ class LocaleString extends Translations {
           'title': 'ફ્લટર ભાષા - સ્થાનિકીકરણ',
           'subscribe': 'અત્યારે જ નામ નોંધાવો',
           'changelang': 'ભાષા બદલો'
+        },
+        'ro_IN': {
+          "hello": "Buna ziua",
+          'message': 'mesaj',
+          'title': 'titlu',
+          'subscribe': 'Abonati-va',
+          'changelang': 'schimba limba'
         }
       };
 }
